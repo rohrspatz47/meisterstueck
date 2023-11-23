@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    height: 15vh;
+    background-color: #ff0000;    
+}
+header div h2 {
+    text-align: center;
+}
+main {
+    display: flex;
+    min-height: 70vh;
+}
+main navigation {
+    display: block;
+    width: 13%;
+    background-color: #0000ff;
+    text-align: center;
+    border: solid;
+}
+main hauptanzeige {
+    width: 87%;
+    background-color: #ffff00;
+    text-align: center;
+    border: solid;
+    padding: 10px
+}
+main hauptanzeige table, th, td {
+    border: 1px solid;
+    width: 15%;
+}
+main hauptanzeige table {
+    width: 90%;
+}
+footer {
+    min-height: 15vh;
+    background-color: #00ff00;
+    border: solid;
+}
+.profil {
+    display: flex;
+    width: 25%;
+    border: solid;
+    padding: 0.4vh;
+}   
+.ueberschrift {
+    width: 45%;
+    text-align: center;
+    font-size: 18px;
+    border: solid;
+}
+.obenbuttons {
+    width: 30%;
+    border: solid;
+    padding: 0.4vh;
+}
+.navlink {
+    color: #ffffff;
+}
+.rundbild {
+    height: 13vh;
+    border: solid;
+    border-radius: 50%;
+}
+.rechtsbild {
+    height: 10vh;
+}
+.kopfzeile {
+
+}
+.daten {
+    
+}

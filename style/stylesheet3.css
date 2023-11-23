@@ -1,0 +1,56 @@
+body {
+    border: solid;
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    gap: 0.5em;
+    min-height: 100vh;
+}
+header {
+    background-color: #ff0000;
+    border: solid;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+header hprofil {
+    background-color: #ffff00;
+    border: solid;
+    grid-column: 1;
+    grid-row: 1;
+}
+header hueberschrift {
+    background-color: #ff00ff;
+    border: solid;
+    grid-column: 2;
+    grid-row: 1;
+}
+header hbuttons {
+    background-color: #00ffff;
+    border: solid;
+    grid-column: 3;
+    grid-row: 1;
+}
+main {
+    background-color: #00ff00;
+    border: solid;
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+main mnavi {
+    background-color: #ff8800;
+    border: solid;
+    grid-column: 1;
+    grid-row: 2;
+}
+main mcontent {
+    background-color: #ff0088;
+    border: solid;
+    grid-column: 2 / span 2;
+    grid-row: 2;
+}
+footer {
+    background-color: #0000ff;
+    border: solid;
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}

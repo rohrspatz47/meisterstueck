@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 2</title>
+    <style>
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header li {
+    display: inline-block;
+}
+header li.active a {
+    color: green;
+}
+#besonderes-ding {
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="" alt="LOGO">
+
+        <ul style="display: inline-block">
+            <li class="active"><a href="#">Startseite</a></li>
+            <li><a href="#">Kategorien</a></li>
+        </ul>
+
+        <ul style="display: inline-block">
+            <li><a href="#">Warenkorb</a></li>
+            <li><a href="#besonderes-ding">Account</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Hello World!</h1>
+        <a href="#">Nach oben bitte!</a>
+        <ul>
+            <li>Hallo</li>
+            <li id="besonderes-ding">Hallo</li>
+            <li>Hallo</li>
+        </ul>
+    </main>
+</body>
+</html>

@@ -16,6 +16,7 @@ main navigation {
     background-color: #0000ff;
     text-align: center;
     border: solid;
+    font-size: 16px;
 }
 main hauptanzeige {
     width: 87%;
@@ -53,8 +54,19 @@ footer {
     border: solid;
     padding: 0.4vh;
 }
+.rechtsbild:hover {
+    background-color: #0000ff;
+}
 .navlink {
+    background-color: #00ff00;
     color: #ffffff;
+}
+::hover {
+
+}
+.navlink:hover {
+    background-color: #ff0000;
+    color: #ffff00;
 }
 .rundbild {
     height: 13vh;

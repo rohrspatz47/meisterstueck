@@ -53,6 +53,7 @@ footer {
     width: 30%;
     border: solid;
     padding: 0.4vh;
+    text-align: right;
 }
 .rechtsbild:hover {
     background-color: #0000ff;

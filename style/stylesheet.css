@@ -68,5 +68,17 @@ footer {
 
 }
 .daten {
-    
+    font-size: 14px;
+}
+.freistunde { background-image:
+    repeating-linear-gradient(45deg, 
+                             white 0%, 
+                             white 2%, cyan 2%, 
+                             cyan 4%, white 4%);
+}
+.schulschluss { background-image:
+    repeating-linear-gradient(45deg, 
+                             white 0%, 
+                             white 2%, rgb(220, 122, 220) 2%, 
+                             rgb(219, 154, 219) 4%, white 4%);
 }

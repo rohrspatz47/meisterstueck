@@ -1,3 +1,6 @@
+body {
+    
+}
 header {
     display: flex;
     height: 15vh;
@@ -18,12 +21,20 @@ main navigation {
     border: solid;
     font-size: 16px;
 }
+main navigation li:nth-child(odd) {
+    color: #ffffff;
+}
+main navigation li:nth-child(even) {
+    background-color: #ffff00;
+    color: #000000;
+}
 main hauptanzeige {
     width: 87%;
     background-color: #ffff00;
     text-align: center;
     border: solid;
-    padding: 10px
+    padding: 10px;
+    justify-content: center;
 }
 main hauptanzeige table, th, td {
     border: 1px solid;
@@ -59,8 +70,7 @@ footer {
     background-color: #0000ff;
 }
 .navlink {
-    background-color: #00ff00;
-    color: #ffffff;
+
 }
 ::hover {
 
@@ -69,6 +79,9 @@ footer {
     background-color: #ff0000;
     color: #ffff00;
 }
+.navlink:nth-child(2) {
+    background-color: #ffff00;
+}
 .rundbild {
     height: 13vh;
     border: solid;
@@ -76,6 +89,12 @@ footer {
 }
 .rechtsbild {
     height: 6vh;
+}
+.rechtsbild:nth-child(2) {
+    background-color: #ffff00;
+}
+::nth-child(2) {
+
 }
 .kopfzeile {
 
@@ -94,4 +113,7 @@ footer {
                              white 0%, 
                              white 2%, rgb(220, 122, 220) 2%, 
                              rgb(219, 154, 219) 4%, white 4%);
+}
+.zentrieren {
+    justify-content: center;
 }

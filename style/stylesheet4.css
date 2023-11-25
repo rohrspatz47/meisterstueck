@@ -30,6 +30,18 @@ headerrechts {
     text-align: right;  
     color: #ffffff;
 }
+headerrechts a {
+    text-decoration: none;
+}
+headerrechts a:hover {
+    text-decoration: none;
+}
+headerrechts a:visited {
+    text-decoration: none;
+}
+headerrechts a:active {
+    text-decoration: none;
+}
 navi {
     grid-area: navi;
     background-color: #00ffff;

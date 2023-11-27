@@ -25,7 +25,7 @@
     }
     headermitte {
         grid-area: headermitte;
-        background-image: linear-gradient(135deg, #00ff00, #000000);
+        background-image: linear-gradient(135deg, #00ff00, #006400);
         padding: 5px;
         text-align: center;
     }
@@ -118,8 +118,19 @@
     }
     .mittelbild {
         max-height: 7.5vh;
+        animation: fadein;
+        animation-duration: 7s;
+        animation-fill-mode: forwards;
     }
-@media (max-width: 360px) {
+    @keyframes fadein {
+        from {
+            margin-left: 100%;
+          }
+          to {
+            margin-left: 0%;
+          }
+        }
+    @media (max-width: 360px) {
         .container {
             height: 100%;
             width: 100%;

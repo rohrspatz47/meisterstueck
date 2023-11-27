@@ -1,104 +1,158 @@
-.container {
-    
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 15% 1fr 13%;
-    grid-template-columns: 20% 10% 20% 20% 10% 20%;
-    grid-template-areas:
-    "headerlinks headerlinks headermitte headermitte headerrechts headerrechts"
-    "navi inhalt inhalt inhalt inhalt inhalt"
-    "footer footer footer footer footer footer"
-    ;
-    justify-content: center;
-}
-headerlinks {
-    grid-area: headerlinks;
-    background-image: linear-gradient(135deg, #ff0000, #000000);
-    padding: 5px;
-    text-align: left;
-}
-headermitte {
-    grid-area: headermitte;
-    background-image: linear-gradient(135deg, #00ff00, #000000);
-    padding: 5px;
-    text-align: center;
-}
-headerrechts {
-    grid-area: headerrechts;
-    background-image: linear-gradient(135deg, #0000ff, #000000);
-    padding: 5px;  
-    text-align: right;  
-    color: #ffffff;
-}
-headerrechts a {
-    text-decoration: none;
-}
-headerrechts a:hover {
-    text-decoration: none;
-}
-headerrechts a:visited {
-    text-decoration: none;
-}
-headerrechts a:active {
-    text-decoration: none;
-}
-navi {
-    grid-area: navi;
-    background-color: #00ffff;
-    padding: 5px;
-    text-align: center;
-}
-navi a {
-    text-decoration: none;
-}
-navi a:hover {
-    text-decoration: none;
-}
-navi a:visited {
-    text-decoration: none;
-}
-navi a:active {
-    text-decoration: none;
-}
-hauptinhalt {
-    grid-area: inhalt;
-    background-image: linear-gradient(135deg, #ffff00, #000000);
-    padding: 5px;
-    text-align: center;
-}
-footer {
-    grid-area: footer;
-    background-image: linear-gradient(135deg, #000000, #ff00ff);
-    padding: 5px;
-    text-align: center;
-}
-.navbutton {
-    min-height: 35px;
-    width: 95%;
-    border-radius: 5px 20px 20px 20px;
-    background-image: linear-gradient(to right, red, orange, yellow, #7cfc00, violet, indigo, blue);
-    text-align: center;
-    font-size: 25px;
-    color: #000000;
-    padding: 2px;
-    margin: 10px;
-    text-decoration: none;
-}
-.navbutton:hover {
-    color: #FFB90F;
-    text-decoration: none;
-    font-size: 27px;    
-    background-image: linear-gradient(to right, #000000, #ff0000);
-}
-.rechtsbild {
-    height: 6vh;
-}
-.rechtsbild:hover {
-    background-image: linear-gradient(to right, #00ffff, #ffffff);
-}
-.rahmen {
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-color: #ffffff;
-}
+
+    .container {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 15% 1fr 13%;
+        grid-template-columns: 20% 10% 20% 20% 10% 20%;
+        grid-template-areas:
+        "headerlinks headerlinks headermitte headermitte headerrechts headerrechts"
+        "navi inhalt inhalt inhalt inhalt inhalt"
+        "footer footer footer footer footer footer"
+        ;
+        justify-content: center;
+    }
+    headerlinks {
+        grid-area: headerlinks;
+        background-image: linear-gradient(135deg, #ff0000, #000000);
+        padding: 5px;
+        text-align: left;
+        font-size: large;
+        color: #ffffff;
+    }
+    headerlinks a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    headermitte {
+        grid-area: headermitte;
+        background-image: linear-gradient(135deg, #00ff00, #000000);
+        padding: 5px;
+        text-align: center;
+    }
+    headerrechts {
+        grid-area: headerrechts;
+        background-image: linear-gradient(135deg, #0000ff, #000000);
+        padding: 5px;  
+        text-align: right;  
+        color: #ffffff;
+    }
+    headerrechts a {
+        text-decoration: none;
+    }
+    headerrechts a:hover {
+        text-decoration: none;
+    }
+    headerrechts a:visited {
+        text-decoration: none;
+    }
+    headerrechts a:active {
+        text-decoration: none;
+    }
+    navi {
+        grid-area: navi;
+        background-color: #00ffff;
+        padding: 5px;
+        text-align: center;
+    }
+    navi a {
+        text-decoration: none;
+    }
+    navi a:hover {
+        text-decoration: none;
+    }
+    navi a:visited {
+        text-decoration: none;
+    }
+    navi a:active {
+        text-decoration: none;
+    }
+    hauptinhalt {
+        grid-area: inhalt;
+        background-image: linear-gradient(135deg, #ffff00, #000000);
+        padding: 5px;
+        text-align: center;
+    }
+    footer {
+        grid-area: footer;
+        background-image: linear-gradient(135deg, #000000, #ff00ff);
+        padding: 5px;
+        text-align: center;
+    }
+    .navbutton {
+        min-height: 35px;
+        width: 95%;
+        border-radius: 5px 20px 20px 20px;
+        background-image: linear-gradient(to right, red, orange, yellow, #7cfc00, violet, indigo, blue);
+        text-align: center;
+        font-size: 25px;
+        color: #000000;
+        padding: 2px;
+        margin: 10px;
+        text-decoration: none;
+    }
+    .navbutton:hover {
+        color: #FFB90F;
+        text-decoration: none;
+        font-size: 27px;    
+        background-image: linear-gradient(to right, #000000, #ff0000);
+    }
+    .rechtsbild {
+        height: 6vh;
+    }
+    .rechtsbild:hover {
+        background-image: linear-gradient(to right, #00ffff, #ffffff);
+    }
+    .rahmen {
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-color: #ffffff;
+    }
+    .rundbild {
+        height: 7.5vh;
+        border: solid;
+        border-radius: 50%;
+    }
+    .rundbild:hover {
+        height: 9.5vh;
+    }
+    .mittelbild {
+        max-height: 7.5vh;
+    }
+@media (max-width: 360px) {
+        .container {
+            height: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-rows: 15% 1fr 13%;
+            grid-template-columns: 30% 70%;
+            grid-template-areas:
+            "headerlinks headerrechts"
+            "hauptinhalt hauptinhalt"
+            "footer footer"
+            ;
+            justify-content: center;
+        }
+        headerlinks {
+            grid-area: headerlinks;
+            background-color: #ff00ff;
+        }
+        headermitte {
+            visibility: hidden;
+        }
+        headerrechts {
+            grid-area: headerlinks;
+            background-color: #ff00ff;
+        }
+        navi {
+            visibility: hidden;
+        }
+        hauptinhalt {
+            grid-area: hauptinhalt;
+            background-color: #ff00ff;
+        }
+        footer {
+            grid-area: footer;
+            background-color: #ff00ff;
+        }
+    }

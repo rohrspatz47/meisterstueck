@@ -87,6 +87,11 @@ footer {
     border: solid;
     border-radius: 50%;
 }
+.rundbild:hover {
+    height: 15vh;
+    border: solid;
+    border-radius: 50%;
+}
 .rechtsbild {
     height: 6vh;
 }
